@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "241742393010",
+    "firebase_url": "https://bbnsng-f16d2.firebaseio.com",
+    "project_id": "bbnsng-f16d2",
+    "storage_bucket": "bbnsng-f16d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241742393010:android:e60e1bf0e2a6090d",
+        "android_client_info": {
+          "package_name": "org.nativescript.bbnsng"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241742393010-mfrrnqi9d3mmeqceqmk4sgleng6nudbp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.nativescript.bbnsng",
+            "certificate_hash": "650649334dce9fb6fb8cc8f7df18acecd8a236b0"
+          }
+        },
+        {
+          "client_id": "241742393010-g1elleutipevk92crltepkolj8i5gfs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRKzbIcXvCXZEKAab3W7nB-juyMSqCR5g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241742393010-g1elleutipevk92crltepkolj8i5gfs2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
