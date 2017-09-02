@@ -16,6 +16,24 @@ export class FirebaseService {
         private ngZone: NgZone
     ) { }
 
+    public init() {
+        try {
+            firebase.init({
+                // Optionally pass in properties for database, authentication and cloud messaging,
+                // see their respective docs.
+            }).then(
+                function (instance) {
+                    console.log("firebase.init done");
+                },
+                function (error) {
+                    console.log("firebase.init error: " + error);
+                }
+                );
+        } catch (error) {
+            console.log("firebase.init doesnt even get called properly: " + error);
+        }
+    }
+
     public getPath(path): Observable<any> {
         return new Observable((observer: any) => {
             let listener: any;

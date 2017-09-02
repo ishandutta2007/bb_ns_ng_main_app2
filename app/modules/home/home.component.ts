@@ -34,6 +34,9 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.channels$ = <any>this.firebaseService.getPath('users/RXmeYtQYTxOUmc6WBnqPFTItyeP2/channels');
+    this.firebaseService.init();
+    setTimeout(
+      this.channels$ = <any>this.firebaseService.getPath('users/RXmeYtQYTxOUmc6WBnqPFTItyeP2/channels'),
+      9000);
   }
 }
